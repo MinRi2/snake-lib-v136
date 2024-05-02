@@ -17,7 +17,7 @@ const exampleSnakeBody = lib.segment("snakeBody", {
 }, {});
 
 exampleSnakeBody.setEnginesMirror(
-    new UnitEngine(10*0.85, -10*0.85, 3, 0)
+    new UnitEngine(10, 0, 3, 0)
 );
 
 const exampleSnake = lib.head("snake", {
